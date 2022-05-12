@@ -1,0 +1,41 @@
+body{
+    background-image: url(../imagenes/body_I.JPG) ;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+
+.header__logo{
+    border-radius: 70%;
+    border: solid white;
+}
+header{
+    background-image: url(../imagenes/imagen_header2.jpg) ;
+    background-size: contain;
+    margin: 3px;
+    justify-content: center;
+}
+footer{
+    background-image: url(../imagenes/imagen_header.jpg) ;
+    background-size: contain;
+    
+}
+
+.contenedor__noticicas{
+    border: solid white;
+}
+
