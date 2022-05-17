@@ -1,22 +1,47 @@
-body{
-    background-image: url(../imagenes/body_I.JPG) ;
-    text-align: center;
-    align-items: center;
-    
-    
-}
 h1{
     color: white;
 }
 h2{
+  font-family: 'Kavivanar', cursive;
     color: white;
 }
 h3{
+  font-family: 'Abril Fatface', cursive;
     color: white;
 }
 p{
+  font-family: 'Ribeye', cursive;
     color: white;
     font-size: 20px;
+}
+li{
+  font-family: 'Abril Fatface', cursive;
+}
+.main__titulo{
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+  transition: 2s;
+ 
+}
+.contenedor__main__titulo{
+  transition: 2s;
+}
+.contenedor__main__titulo:hover{
+  transform: scale(3);
+}
+.main__titulo:hover{
+  size: 100px;
+  transform  
+}
+
+body{
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   ;
+    text-align: center;
+    align-items: center;   
 }
 
 .header__logo{
@@ -81,6 +106,15 @@ footer{
 .item__flex__donar{
   align-content: center;
 }
+.header__logo{ 
+    transition: 2s;
+   
+}
+.header__logo:hover{
+  transform: rotate(360deg);
+}
+
+
 
 
 
@@ -175,7 +209,7 @@ h1{
   font-size: 39px;  
   text-align: letf; 
   padding-bottom: 20px; 
-  color: #ab4493;
+  color: #ffffff;
 }
 
 
