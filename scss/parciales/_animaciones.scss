@@ -14,4 +14,12 @@
   .main__titulo:hover{
     size: 100px;  
   }
+  .navbar__logo{ 
+    transition: 2s;
+
+}
+.navbar__logo:hover{
+  transform: rotate(360deg);
+}
+  
   /* ANIMACIONES */

@@ -1,19 +1,16 @@
-.header__logo{
-    border-radius: 70%;
-  
-    align-content: center;
-    width: 150px;
-}
-header{
-    
-    background-size: contain;
-    
+header{    
+    background-size: contain;    
     justify-content: center;
     justify-items: center;
     text-align: center;
     width: 100%;
+    
 }
-.navbar{
-  
-    justify-content: space-between;  
+.navbar{  
+    justify-content: space-between; 
+    &__logo{
+        border-radius: 70%;      
+        align-content: center;
+        width: 150px;
+        } 
   }

@@ -1,4 +1,6 @@
 /*ARCHIVO RAIZ DE SASS*/
+/*Sintaxis para crear variables: $variable: ValorQueSeRepite;*/
+/*VARIABLES PARA ELEMENTOS*/
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 h1 {
   color: white;
@@ -24,6 +26,12 @@ li {
   font-family: 'Abril Fatface', cursive;
 }
 
+.p__de__index {
+  font-family: 'Kavivanar', cursive;
+  color: white;
+  font-size: 20px;
+}
+
 /*CSS PARA TEXTOS*/
 body {
   background: #000000;
@@ -35,12 +43,6 @@ body {
 }
 
 /*CSS PARA EL BODY*/
-.header__logo {
-  border-radius: 70%;
-  align-content: center;
-  width: 150px;
-}
-
 header {
   background-size: contain;
   justify-content: center;
@@ -51,6 +53,12 @@ header {
 
 .navbar {
   justify-content: space-between;
+}
+
+.navbar__logo {
+  border-radius: 70%;
+  align-content: center;
+  width: 150px;
 }
 
 /*CSS PARA EL HEADER*/
@@ -195,6 +203,14 @@ p {
 
 .main__titulo:hover {
   size: 100px;
+}
+
+.navbar__logo {
+  transition: 2s;
+}
+
+.navbar__logo:hover {
+  transform: rotate(360deg);
 }
 
 /* ANIMACIONES */
