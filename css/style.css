@@ -1,3 +1,4 @@
+/*ARCHIVO RAIZ DE SASS*/
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 h1 {
   color: white;
@@ -23,27 +24,7 @@ li {
   font-family: 'Abril Fatface', cursive;
 }
 
-/* ANIMACIONES */
-.main__titulo {
-  padding: 20px;
-  margin: 20px;
-  font-size: 20px;
-  transition: 2s;
-}
-
-.contenedor__main__titulo {
-  transition: 2s;
-}
-
-.contenedor__main__titulo:hover {
-  transform: scale(3);
-}
-
-.main__titulo:hover {
-  size: 100px;
-}
-
-/* ANIMACIONES */
+/*CSS PARA TEXTOS*/
 body {
   background: #000000;
   /* fallback for old browsers */
@@ -53,6 +34,7 @@ body {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+/*CSS PARA EL BODY*/
 .header__logo {
   border-radius: 70%;
   align-content: center;
@@ -67,6 +49,17 @@ header {
   width: 100%;
 }
 
+.navbar {
+  justify-content: space-between;
+}
+
+/*CSS PARA EL HEADER*/
+.main {
+  width: 100%;
+  justify-content: center;
+}
+
+/*CSS PARA EL MAIN*/
 footer {
   background-size: contain;
   width: 100%;
@@ -74,15 +67,7 @@ footer {
   align-content: center;
 }
 
-.main {
-  width: 100%;
-  justify-content: center;
-}
-
-.navbar {
-  justify-content: space-between;
-}
-
+/*CSS PARA EL FOOTER*/
 /*  FORMULARIO DE LA PAGINA DE CONTACTO EXTRADO DE OTRA LIBRERIA DE LA */
 .contact_form {
   width: 460px;
@@ -190,4 +175,28 @@ p {
   outline: 0;
   border: 1px solid #97d848;
 }
+
+/*CSS FORMULARIO PAGINA CONTACTO*/
+/* ANIMACIONES */
+.main__titulo {
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+  transition: 2s;
+}
+
+.contenedor__main__titulo {
+  transition: 2s;
+}
+
+.contenedor__main__titulo:hover {
+  transform: scale(3);
+}
+
+.main__titulo:hover {
+  size: 100px;
+}
+
+/* ANIMACIONES */
+/*CSS PARA ANIMACIONES*/
 /*# sourceMappingURL=style.css.map */

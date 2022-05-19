@@ -1,220 +1,33 @@
-h1{
-    color: white;
-}
-h2{
-  font-family: 'Kavivanar', cursive;
-    color: white;
-}
-h3{
-  font-family: 'Abril Fatface', cursive;
-    color: white;
-}
-p{
-  font-family: 'Ribeye', cursive;
-    color: white;
-    font-size: 20px;
-}
-li{
-  font-family: 'Abril Fatface', cursive;
-}
+/*ARCHIVO RAIZ DE SASS*/
 
-/* ANIMACIONES */
-.main__titulo{
-  padding: 20px;
-  margin: 20px;
-  font-size: 20px;
-  transition: 2s;
- 
-}
-.contenedor__main__titulo{
-  transition: 2s;
-}
-.contenedor__main__titulo:hover{
-  transform: scale(3);
-}
-.main__titulo:hover{
-  size: 100px;
-  
-}
-
-
-
-
-/* ANIMACIONES */
-
-
-body{
-  background: #000000;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- 
-}
-
-.header__logo{
-    border-radius: 70%;
-  
-    align-content: center;
-    width: 150px;
-}
-header{
-    
-    background-size: contain;
-    
-    justify-content: center;
-    justify-items: center;
-    text-align: center;
-    width: 100%;
-}
-footer{
-   
-    background-size: contain;
-    width: 100%;
-    align-items: center;
-    align-content: center; 
-}
-.main{
-  width: 100%;
-  justify-content: center;
-}
-
-
-
-.navbar{
-  
-  justify-content: space-between;
-  
-
-}
+@import "parciales/texto";/*CSS PARA TEXTOS*/
+@import "parciales/body";/*CSS PARA EL BODY*/
+@import "parciales/header";/*CSS PARA EL HEADER*/
+@import "parciales/main";/*CSS PARA EL MAIN*/
+@import "parciales/footer";/*CSS PARA EL FOOTER*/
+@import "parciales/formulario_contacto";/*CSS FORMULARIO PAGINA CONTACTO*/
+@import "parciales/animaciones";/*CSS PARA ANIMACIONES*/
 
 
 
 
 
 
-/*  FORMULARIO DE LA PAGINA DE CONTACTO EXTRADO DE OTRA LIBRERIA DE LA */
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 
 
 
 
 
-.contact_form{  
-  width: 460px; 
-  height: auto;
-  margin: 80px auto;
-  border-radius: 10px;  
-  padding-top: 30px;
-  padding-bottom: 20px;  
-  background-color: #fbfbfb; 
-  padding-left: 30px; 
-}
 
 
-input{
-  background-color: #fbfbfb; 
-  width: 408px; 
-  height: 40px; 
-  border-radius: 5px;  
-  border-style: solid; 
-  border-width: 1px; 
-  border-color: #ab4493; 
-  margin-top: 10px;  
-  padding-left: 10px;
-  margin-bottom: 20px; 
-}
 
 
-textarea{
-  background-color: #fbfbfb; 
-  width: 405px; 
-  height: 150px; 
-  border-radius: 5px;  
-  border-style: solid; 
-  border-width: 1px; 
-  border-color: #ab4493; 
-  margin-top: 10px;  
-  padding-left: 10px;
-  margin-bottom: 20px; 
-  padding-top: 15px; 
-}
 
 
-label{
-  display: block; 
-  float: center;  
-}
 
 
-button{
-  height: 45px; 
-  padding-left: 5px;
-  padding-right: 5px;   
-  margin-bottom: 20px; 
-  margin-top: 10px;   
-  text-transform: uppercase;
-  background-color: #426e1d; 
-  border-color: #0f000b; 
-  border-style: solid; 
-  border-radius: 10px;  
-  width: 420px;   
-  cursor: pointer;
-}
 
 
-button p{
-  color: #fff; 
-}
 
 
-span{
-  color: #ab4493; 
-}
 
-
-.aviso{
-  font-size: 13px;  
-  color: #0e0e0e;  
-}
-
-
-h1{
-  font-size: 39px;  
-  text-align: letf; 
-  padding-bottom: 20px; 
-  color: #ffffff;
-}
-
-
-h3{
-  font-size: 16px; 
-  padding-bottom: 30px;
-  color: #0e0e0e;   
-}
-
-
-p{
-  font-size: 14px; 
-  color: #0e0e0e; 
-}
-
-
-::-webkit-input-placeholder {
- color: #a8a8a8;
-}
-
-
-::-webkit-textarea-placeholder {
- color: #a8a8a8;
-}
-
-
-.formulario input:focus{
-  outline:0;
-  border: 1px solid #97d848;
-}
-
-
-.formulario textarea:focus{
-  outline:0;
-  border: 1px solid #97d848;
-}
