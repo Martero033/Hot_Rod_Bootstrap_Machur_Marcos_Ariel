@@ -1,25 +1,27 @@
 /* ANIMACIONES */
 .main__titulo{
-    padding: 20px;
-    margin: 20px;
-    font-size: 20px;
-    transition: 2s; 
-  }
-  .contenedor__main__titulo{
-    transition: 2s;
-  }
-  .contenedor__main__titulo:hover{
-    transform: scale(3);
-  }
-  .main__titulo:hover{
-    size: 100px;  
-  }
-  .navbar__logo{ 
-    transition: 2s;
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+  transition: 2s; 
+}
+.contenedor__main__titulo{
+  transition: 2s;
+}
+.contenedor__main__titulo:hover{
+  transform: scale(3);
+}
+.main__titulo:hover{
+  size: 100px;  
+}
+.navbar__logo{ 
+  transition: 2s;
 
 }
 .navbar__logo:hover{
-  transform: rotate(360deg);
+transform: rotate(360deg);
 }
+
+
   
   /* ANIMACIONES */

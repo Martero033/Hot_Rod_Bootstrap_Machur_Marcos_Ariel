@@ -1,0 +1,5 @@
+23/05/2022
+SEO:
+se agrega META DESCRIPTION en todas las paginas OK
+se agrega PALABRAS CLAVES en todas las paginas OK
+se revisan los <Title> de todas las paginas: OK

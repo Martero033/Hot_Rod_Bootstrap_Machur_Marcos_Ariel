@@ -61,6 +61,14 @@ header {
   width: 150px;
 }
 
+.mask {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.img__header {
+  height: 400px;
+}
+
 /*CSS PARA EL HEADER*/
 .main {
   width: 100%;
