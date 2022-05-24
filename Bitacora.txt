@@ -2,4 +2,13 @@
 SEO:
 se agrega META DESCRIPTION en todas las paginas OK
 se agrega PALABRAS CLAVES en todas las paginas OK
+se agrega variable de color Withe para los textos que necesita esa propiedad OK
 se revisan los <Title> de todas las paginas: OK
+se agrega scss y se compila todo el css del proyecto OK
+agrego parciales OK
+importo parciales al archivo raiz scss OK
+agrego branch "test" al proyecto, donde primego hago las pruebas y luego las aplico al branch "master". OK
+Controlo Lorem en las paginas
+
+
+

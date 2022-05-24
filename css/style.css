@@ -7,7 +7,8 @@ h1 {
 }
 
 h2 {
-  font-family: 'Kavivanar', cursive;
+  font-family: 'Krona One', sans-serif;
+  font-size: 20;
   color: white;
 }
 
@@ -23,13 +24,23 @@ p {
 }
 
 li {
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Krona One', sans-serif;
 }
 
 .p__de__index {
   font-family: 'Kavivanar', cursive;
   color: white;
   font-size: 20px;
+}
+
+.p__de__index {
+  font-family: 'Kavivanar', cursive;
+  color: white;
+  font-size: 20px;
+}
+
+.p__historia {
+  color: white;
 }
 
 /*CSS PARA TEXTOS*/
@@ -71,8 +82,15 @@ header {
 
 /*CSS PARA EL HEADER*/
 .main {
+  margin-top: 30px;
+  margin-bottom: 30px;
   width: 100%;
   justify-content: center;
+}
+
+.img__noticia {
+  border-radius: 100%;
+  border: solid white 5px;
 }
 
 /*CSS PARA EL MAIN*/
