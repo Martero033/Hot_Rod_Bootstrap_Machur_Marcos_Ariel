@@ -1,12 +1,12 @@
 23/05/2022
 SEO:
-se agrega META DESCRIPTION en todas las paginas OK
-se agrega PALABRAS CLAVES en todas las paginas OK
-se agrega variable de color Withe para los textos que necesita esa propiedad OK
-se revisan los <Title> de todas las paginas: OK
+se agrega META DESCRIPTION en todas las paginas OK SEO
+se agrega PALABRAS CLAVES en todas las paginas OK SEO
+se agrega variable de color Withe para los textos que necesita esa propiedad OK 
+se revisan los <Title> de todas las paginas: OK SEO
 se agrega scss y se compila todo el css del proyecto OK
 agrego parciales OK
-importo parciales al archivo raiz scss OK
+importo parciales al archivo raiz scss OKs
 24/03/05/2022 
 agrego branch "test" al proyecto, donde primego hago las pruebas y luego las aplico al branch "master". OK
 se realizan pruebas en el codigo html en test
@@ -14,7 +14,13 @@ se realizan pruebas en el codigo html en test
 se trata de quitar bootstrap en contenido main en index en rama test
 26/03/2022
 se trabaja en rama master
-se quita Lorems en las paginas
+se quita Lorems en las paginas OK SEO
+se agrega parcial de media queries OK
+se agrega @extend a media queries OK
+declaro mapa de reseteo para usar OK
+se comprimen img para optimizar sitio OK
+
+
 
 
 

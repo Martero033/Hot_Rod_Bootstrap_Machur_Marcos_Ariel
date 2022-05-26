@@ -1,25 +1,27 @@
 /*ARCHIVO RAIZ DE SASS*/
-/*Sintaxis para crear variables: $variable: ValorQueSeRepite;*/
+/*Mapa para crear clases en css y aplicarlas en html*/
+/*Sintaxis para crear variables: $variable -- Valor Que Se Repite;*/
+/*FIN MAPA*/
 /*VARIABLES PARA ELEMENTOS*/
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 h1 {
-  color: white;
+  color: rgba(255, 255, 255, 0.864);
 }
 
 h2 {
   font-family: 'Krona One', sans-serif;
   font-size: 20;
-  color: white;
+  color: rgba(255, 255, 255, 0.864);
 }
 
 h3 {
   font-family: 'Abril Fatface', cursive;
-  color: white;
+  color: rgba(255, 255, 255, 0.864);
 }
 
 p {
   font-family: 'Ribeye', cursive;
-  color: white;
+  color: rgba(255, 255, 255, 0.864);
   font-size: 20px;
 }
 
@@ -29,18 +31,18 @@ li {
 
 .p__de__index {
   font-family: 'Kavivanar', cursive;
-  color: white;
+  color: rgba(255, 255, 255, 0.864);
   font-size: 20px;
 }
 
 .p__de__index {
   font-family: 'Kavivanar', cursive;
-  color: white;
+  color: rgba(255, 255, 255, 0.864);
   font-size: 20px;
 }
 
 .p__historia {
-  color: white;
+  color: rgba(255, 255, 255, 0.864);
 }
 
 /*CSS PARA TEXTOS*/
@@ -635,39 +637,7 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  .contenedor__main__noticias {
-    margin: 5px 5px 5px 5px;
-    padding: 5px 5px 5px 5px;
-  }
-  .contenedor__main__noticias__item {
-    margin: 5px 5px 5px 5px;
-    padding: 5px 5px 5px 5px;
-  }
-  .articule__noticias {
-    margin: 5px 5px 5px 5px;
-    padding: 5px 5px 5px 5px;
-  }
-  .contenedor__main__musica {
-    margin: 5px 5px 5px 5px;
-    padding: 5px 5px 5px 5px;
-  }
-  .contenedor__main__musica__item {
-    margin: 5px 5px 5px 5px;
-    padding: 5px 5px 5px 5px;
-  }
-  .articule__musica {
-    margin: 5px 5px 5px 5px;
-    padding: 5px 5px 5px 5px;
-  }
-  .contenedor__main__fechas {
-    margin: 5px 5px 5px 5px;
-    padding: 5px 5px 5px 5px;
-  }
-  .contenedor__main__fechas__item {
-    margin: 5px 5px 5px 5px;
-    padding: 5px 5px 5px 5px;
-  }
-  .articule__musica {
+  .contenedor__main__noticias, .contenedor__main__noticias__item, .articule__noticias, .contenedor__main__musica, .contenedor__main__musica__item, .articule__musica, .contenedor__main__fechas, .contenedor__main__fechas__item {
     margin: 5px 5px 5px 5px;
     padding: 5px 5px 5px 5px;
   }

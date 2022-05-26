@@ -438,44 +438,36 @@
    
            }
            .contenedor__main__noticias__item{
-            margin: 5px 5px 5px 5px;
-            padding: 5px 5px 5px 5px;
+            @extend .contenedor__main__noticias;
    
            }
            .articule__noticias{
-            margin: 5px 5px 5px 5px;
-            padding: 5px 5px 5px 5px;
+            @extend .contenedor__main__noticias;
    
            }
            .contenedor__main__musica{
-            margin: 5px 5px 5px 5px;
-            padding: 5px 5px 5px 5px;
+            @extend .contenedor__main__noticias;
    
            }
            .contenedor__main__musica__item{
-            margin: 5px 5px 5px 5px;
-            padding: 5px 5px 5px 5px;
+            @extend .contenedor__main__noticias;
    
            }
            .articule__musica{
-            margin: 5px 5px 5px 5px;
-            padding: 5px 5px 5px 5px;
+            @extend .contenedor__main__noticias;
    
            }
          
            .contenedor__main__fechas{
-            margin: 5px 5px 5px 5px;
-            padding: 5px 5px 5px 5px;
+            @extend .contenedor__main__noticias;
    
            }
            .contenedor__main__fechas__item{
-               margin: 5px 5px 5px 5px;
-               padding: 5px 5px 5px 5px;
+            @extend .contenedor__main__noticias;
    
            }
            .articule__musica{
-            margin: 5px 5px 5px 5px;
-            padding: 5px 5px 5px 5px;
+            @extend .contenedor__main__noticias; 
    
            }
    
