@@ -7,8 +7,16 @@ se revisan los <Title> de todas las paginas: OK
 se agrega scss y se compila todo el css del proyecto OK
 agrego parciales OK
 importo parciales al archivo raiz scss OK
+24/03/05/2022 
 agrego branch "test" al proyecto, donde primego hago las pruebas y luego las aplico al branch "master". OK
-Controlo Lorem en las paginas
+se realizan pruebas en el codigo html en test
+25/03/2022
+se trata de quitar bootstrap en contenido main en index en rama test
+26/03/2022
+se trabaja en rama master
+se quita Lorems en las paginas
+
+
 
 
 
