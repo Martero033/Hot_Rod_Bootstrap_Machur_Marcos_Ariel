@@ -21,7 +21,7 @@ declaro mapa de reseteo para usar OK
 se comprimen img para optimizar sitio OK
 se verifican todos los TITLE de las paginas OK SEO
 se termina de organizar el Header y el Footer de todas las paginas
-
+se agrega archivo sitemap SEO
 
 
 
