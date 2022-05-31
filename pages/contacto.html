@@ -39,10 +39,10 @@
                   <a class="nav-link" href="./integrantes.html">INTEGRANTES</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./historia.html">HISTORIA</a>
+                  <a class="nav-link" href="./fechas.html">FECHAS</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./discos-y-singles.html">DISCOS Y SINGLES</a>
+                  <a class="nav-link" href="./videos.html">VIDEOS</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="./contacto.hfaciltml">CONTACTO</a>
@@ -53,68 +53,13 @@
 <!--FIN Navbar --></nav>  
 <!--FIN HEADER--></header>
 <main>
-  <h1>Contacto</h1>
-
-    
-    <div class="contact_form">
-
-      <div class="formulario">      
-        <h1>CONTACTO</h1>
-          <p class="p_del_form_contacto">Escribinos y dejanos tus datos para recibir info en tu correo</p>
-  
-  
-            <form action="submeter-formulario.php" method="post">       
-  
-              
-                  <p class="p_del_form_contacto">
-                    <label for="nombre" class="colocar_nombre">Nombre
-                      <span class="obligatorio">*</span>
-                    </label>
-                      <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
-                  </p>
-                
-                  <p class="p_del_form_contacto">
-                    <label for="email" class="colocar_email">Email
-                      <span class="obligatorio">*</span>
-                    </label>
-                      <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
-                  </p>
-              
-                  <p class="p_del_form_contacto">
-                    <label for="telefone" class="colocar_telefono">Teléfono
-                    </label>
-                      <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
-                  </p>    
-                
-                  <p class="p_del_form_contacto">
-                    <label for="website" class="colocar_website">Sitio web
-                    </label>
-                      <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
-                  </p>    
-                
-                  <p class="p_del_form_contacto">
-                    <label for="asunto" class="colocar_asunto">Asunto
-                      <span class="obligatorio">*</span>
-                    </label>
-                      <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
-                  </p>    
-                
-                  <p class="p_del_form_contacto">
-                    <label for="mensaje" class="colocar_mensaje">Mensaje
-                      <span class="obligatorio">*</span>
-                    </label>                     
-                                      <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-                                  </p>                    
-                
-                  <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
-  
-                  <p class="aviso">
-                    <span class="obligatorio"> * </span>los campos son obligatorios.
-                  </p>          
-              
-            </form>
-      </div>  
-    </div>
+  <form class='contacto'>
+    <div><label>Tu Nombre:</label><input type='text' value=''></div>
+    <div><label>Tu Email:</label><input type='text' value=''></div>
+    <div><label>Asunto:</label><input type='text' value=''></div>
+    <div><label>Mensaje:</label><textarea rows='6'></textarea></div>
+    <div><input type='submit' value='Envia Mensaje'></div>
+  </form>
   </main>
     
 

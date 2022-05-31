@@ -1,9 +1,9 @@
 .main{
   margin-top: 30px;
-  margin-bottom: 30px;
- 
+  margin-bottom: 30px; 
   width: 100%;
     justify-content: center;
+    
   }
 
 
@@ -11,7 +11,33 @@
 .img__noticia{
     border-radius: 100%;
     border: solid white 5px;
+    width: 60%;
+    height: 200px;
   }
 
+  .contenedor__fechas{
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+  }
+
+
+
+.img__fechas{
+  border-radius: 100%;
+    border: solid white 5px;
+    justify-content: center;
+    
+    
+}
+
+.titulo__index{
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
 
 
