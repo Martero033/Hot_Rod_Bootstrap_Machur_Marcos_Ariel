@@ -1,35 +1,33 @@
 /*Media Queries: AZUL: MOVILES S-M-L-, AMARILLO: TABLET, VERDE: LAPTOP, ROJO: DESKTOP  */
 @media only screen and (min-width: 319px) and (max-width: 767px) {
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: 0;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
     }
-  body{
+body{
     border: solid blue 10px;
     text-align: center;
   }
   
-  /*Bottom Nav*/.container-fluid{
+/*Bottom Nav*/.container-fluid{
    display: flex;
    flex-direction: column;
    justify-content: center;
  }
 
-  .navbar-toggler{
+.navbar-toggler{
     width: 100%;
     height: 100%;
- 
-  }
-  nav{
+ }
+nav{
     justify-content: center;
   }
   .navbar__logo{
-   border: solid 3px white;
    text-align: center;
    align-content: center ;
-   width: 50%;
-   height: 70%; 
+   width: 100%;
+   height: 50%; 
    margin-top: 35px;
    margin-bottom: 30px;
         
@@ -37,9 +35,9 @@
  
  contenedor__main{    
      display: flex;
-
      text-align: center;
-   }  
+   }
+  
    
    .h1{
          font-family: 'Roboto', sans-serif;
@@ -383,7 +381,6 @@
         justify-content: center;
       }
       .navbar__logo{
-       border: solid 3px white;
        text-align: center;
        align-content: center ;
        width: 20%;

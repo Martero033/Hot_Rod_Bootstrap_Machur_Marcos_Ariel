@@ -1,3 +1,25 @@
+@font-face {
+  font-family: head;
+  src: url(/fonts/headliner.ttf);
+}
+@font-face {
+  font-family: war ;
+  src: url(/fonts/war.ttf);
+}
+@font-face {
+  font-family: kina ;
+  src: url(/fonts/Kiona-Regular.ttf);
+}
+
+@font-face {
+  font-family: biko ;
+  src: url(/fonts/Biko_Regular.otf);
+}
+@font-face {
+  font-family: urban ;
+  src: url(/fonts/UrbanJungleDEMO.otf);
+}
+
 h1{
   color: $color__texto;
 }
@@ -16,7 +38,7 @@ p{
     font-size: 20px;
 }
 li{
-  font-family: 'Krona One', sans-serif;
+  font-family: urban;
 }
 
 .p__de__index{

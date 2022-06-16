@@ -5,6 +5,31 @@
 /*FIN MAPA*/
 /*MIXING para usar en css usar el @include tamaño, solo declaro para luego usarlo en html*/
 /*VARIABLES PARA ELEMENTOS*/
+@font-face {
+  font-family: head;
+  src: url(/fonts/headliner.ttf);
+}
+
+@font-face {
+  font-family: war;
+  src: url(/fonts/war.ttf);
+}
+
+@font-face {
+  font-family: kina;
+  src: url(/fonts/Kiona-Regular.ttf);
+}
+
+@font-face {
+  font-family: biko;
+  src: url(/fonts/Biko_Regular.otf);
+}
+
+@font-face {
+  font-family: urban;
+  src: url(/fonts/UrbanJungleDEMO.otf);
+}
+
 h1 {
   color: rgba(255, 255, 255, 0.864);
 }
@@ -27,7 +52,7 @@ p {
 }
 
 li {
-  font-family: 'Krona One', sans-serif;
+  font-family: urban;
 }
 
 .p__de__index {
@@ -49,11 +74,6 @@ li {
 /*CSS PARA TEXTOS*/
 body {
   background: #000000;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #434343, #000000);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #434343, #000000);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /*CSS PARA EL BODY*/
@@ -70,7 +90,6 @@ header {
 }
 
 .navbar__logo {
-  border-radius: 70%;
   align-content: center;
   width: 150px;
 }
@@ -81,6 +100,12 @@ header {
 
 .img__header {
   height: 400px;
+}
+
+header h1 {
+  font-family: urban;
+  color: white;
+  font-size: 100px;
 }
 
 /*CSS PARA EL HEADER*/
@@ -239,11 +264,10 @@ footer {
     justify-content: center;
   }
   .navbar__logo {
-    border: solid 3px white;
     text-align: center;
     align-content: center;
-    width: 50%;
-    height: 70%;
+    width: 100%;
+    height: 50%;
     margin-top: 35px;
     margin-bottom: 30px;
   }
@@ -567,7 +591,6 @@ footer {
     justify-content: center;
   }
   .navbar__logo {
-    border: solid 3px white;
     text-align: center;
     align-content: center;
     width: 20%;
