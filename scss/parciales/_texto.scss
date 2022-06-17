@@ -1,10 +1,10 @@
 @font-face {
-  font-family: head;
-  src: url(/fonts/headliner.ttf);
+  font-family: urban ;
+  src: url(/fonts/UrbanJungleDEMO.otf);
 }
 @font-face {
-  font-family: war ;
-  src: url(/fonts/war.ttf);
+  font-family: plane ;
+  src: url(/fonts/Plane.ttf);
 }
 @font-face {
   font-family: kina ;
@@ -16,46 +16,11 @@
   src: url(/fonts/Biko_Regular.otf);
 }
 @font-face {
-  font-family: urban ;
-  src: url(/fonts/UrbanJungleDEMO.otf);
+  font-family: cordelina ;
+  src: url(/fonts/cordelina.otf);
 }
 
-h1{
-  color: $color__texto;
-}
-h2{
-  font-family: 'Krona One', sans-serif;
-  font-size: 20;
-  color: $color__texto;
-}
-h3{
-  font-family: 'Abril Fatface', cursive;
-  color: $color__texto;
-}
-p{
-  font-family: 'Ribeye', cursive;
-  color: $color__texto;
-    font-size: 20px;
-}
-li{
-  font-family: urban;
-}
 
-.p__de__index{
-  font-family: 'Kavivanar', cursive;
-  color: $color__texto;
-    font-size: 20px;
-}
-
-.p__de__index{
-  font-family: 'Kavivanar', cursive;
-  color: $color__texto;
-    font-size: 20px;
-}
-
-.p__historia{
-  color: $color__texto;
-}
 
 
 

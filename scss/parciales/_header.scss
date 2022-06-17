@@ -1,32 +1,53 @@
 header{    
+    background-image: url(/imagenes/imagen_header2.jpg);
     background-size: contain;    
     justify-content: center;
     justify-items: center;
     text-align: center;
     width: 100%;
+    border: solid rgb(43, 43, 43);
     
 }
 .navbar{  
-    justify-content: space-between; 
+  justify-content: space-between; 
     &__logo{
-        align-content: center;
-        width: 150px;
-        } 
-        
+            align-content: center;
+            width: 150px;
+        }
   }
-
-.mask{
-    background-color: rgba(0, 0, 0, 0.6);
-    }
-
-    .img__header{
-        height: 400px
+.img__header{
+  height: 400px
     }
 header h1{
-    font-family: urban;
-  color: rgb(255, 255, 255);
+  font-family: urban;
+  color:black;
   font-size: 100px;
+  margin: -0px 0 0 10px;
 }
+  h2{
+    font-family: biko;
+    font-size: 20;
+    color: $blanco;
+  }
+  h3{
+    font-family: 'Abril Fatface', cursive;
+    color: $blanco;
+  }
+  p{
+    font-family: urban;
+    color: $blanco;
+      font-size: 20px;
+  }
+  li{
+    font-family: urban;    
+  }
+
+  
+ 
+  
+
+
+  
 
     
     

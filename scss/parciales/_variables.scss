@@ -1,26 +1,8 @@
 
-/*Mapa para aplicar al html*/
-$reset: (
-    margin: 0,
-    padding: 0,
-    box-sizing: 0,  
-);
+$blanco: rgba(255, 255, 255, 0.864);
+$verde: #446A46;
 
-/*Varialbes para Color de texto y para aplicar modo Oscuro y Claro en las paginas*/
 
-$color__texto: rgba(255, 255, 255, 0.864);
-
-$ModoNoche: rgb(0, 0, 0);
-
-$ModoDia: rgb(255, 255, 255);  
-
-/*FIN MAPA*/
-
-/*MIXING para usar en css usar el @include tamaño, solo declaro para luego usarlo en html*/
-@mixin tamaño($width, $height) {
-    height: $height;
-    width: $width;
- }
 
 
 
