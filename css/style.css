@@ -179,7 +179,7 @@ z.contacto {
 }
 
 .logo:hover {
-  transform: rotate(360deg);
+  transform: rotate(-360deg);
 }
 
 /* ANIMACIONES */
@@ -607,7 +607,7 @@ z.contacto {
 
 #inicio p {
   font-family: cordelina;
-  font-size: 40px;
+  font-size: 30px;
   color: #E9EFC0;
   padding: 50px 0 10px 0;
 }
