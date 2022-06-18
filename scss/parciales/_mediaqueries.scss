@@ -394,25 +394,16 @@ header nav li{
   list-style: none;  
 }
 
-.contenedor__main{
- display: flex;
- flex-direction: row;
- flex-wrap: wrap;
-}
-.contenedor__main__noticias{
- margin: 5px 5px 5px 5px;
- padding: 5px 5px 5px 5px;
-}
 #main__fechas p{
   font-family: war;
   font-size: 40px;
 }
-}
+
 #fechas h2{
   font-family: plane;
   color: $verde1;
   font-size: 50px;
-  margin: 50px 0 60px 0;
+  margin: 10px 0 20px 0;
  }
  #fechas article h3{
   font-family: cordelina;
@@ -454,7 +445,7 @@ header nav li{
  font-family: cordelina;
  font-size: 30px;
  color:$blanco;
- padding: 50px 0 10px 0;
+ padding: 10px 0 10px 0;
 }
 
 #inicio .logo{
@@ -462,11 +453,51 @@ header nav li{
   border-radius: 50%;
 }
 
+#inicio .texto__inicio{
+  font-size: 40px ;
+}
+
+#noticias h2{
+  font-family: plane;
+  color: $verde1;
+  font-size: 50px;
+  margin: 50px 0 30px 0;
 
 
+ }
+ 
+ #noticias article h3{
+  font-family: cordelina;
+  color: rgb(80, 150, 89);
+  font-size: 30px;
+  margin: 30px 0 25px 0;
+  
+ }
+ #noticias p{
+  font-family: cordelina;
+  font-size: 20px;
+  color: $verde4;
+ 
+ }
 
+#noticias .img__section__noticias{
+  width: 50%;
+  border: solid 2px white;
+  border-radius: 10px;
+  margin: 10px 0 30px 0;
+  box-shadow: 30px 20px 20px $verde2;
 
+}
 
-
-
-    
+#noticias .section__noticias{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;  
+}
+#noticias article{
+  padding: 10px;
+  margin: 10px;
+  
+ }
+}
