@@ -8,39 +8,18 @@ header{
     border: solid rgb(43, 43, 43);
     
 }
-.navbar{  
-  justify-content: space-between; 
-    &__logo{
-            align-content: center;
-            width: 150px;
-        }
-  }
-.img__header{
-  height: 400px
-    }
+
 header h1{
   font-family: urban;
   color:black;
   font-size: 100px;
   margin: -0px 0 0 10px;
 }
-  h2{
-    font-family: biko;
-    font-size: 20;
-    color: $blanco;
-  }
-  h3{
-    font-family: 'Abril Fatface', cursive;
-    color: $blanco;
-  }
-  p{
-    font-family: urban;
-    color: $blanco;
-      font-size: 20px;
-  }
-  li{
+
+header li{
     font-family: urban;    
   }
+
 
   
  
