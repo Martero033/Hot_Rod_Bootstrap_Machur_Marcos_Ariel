@@ -1,13 +1,13 @@
 /*ARCHIVO RAIZ DE SASS*/
-@import "parciales/variables";/*VARIABLES PARA ELEMENTOS*/
+@import "./parciales/variables";/*VARIABLES PARA ELEMENTOS*/
 @import "./parciales/texto";/*CSS PARA TEXTOS*/
-@import "parciales/body";/*CSS PARA EL BODY*/
-@import "parciales/header";/*CSS PARA EL HEADER*/
-@import "parciales/main";/*CSS PARA EL MAIN*/
-@import "parciales/footer";/*CSS PARA EL FOOTER*/
-@import "parciales/formulario_contacto";/*CSS FORMULARIO PAGINA CONTACTO*/
-@import "parciales/animaciones";/*CSS PARA ANIMACIONES*/
-@import "parciales/mediaqueries";/*MEDIA QUERIES*/
+@import "./parciales/body";/*CSS PARA EL BODY*/
+@import "./parciales/header";/*CSS PARA EL HEADER*/
+@import "./parciales/main";/*CSS PARA EL MAIN*/
+@import "./parciales/footer";/*CSS PARA EL FOOTER*/
+@import "./parciales/formulario_contacto";/*CSS FORMULARIO PAGINA CONTACTO*/
+@import "./parciales/animaciones";/*CSS PARA ANIMACIONES*/
+@import "./parciales/mediaqueries";/*MEDIA QUERIES*/
 
 
 
