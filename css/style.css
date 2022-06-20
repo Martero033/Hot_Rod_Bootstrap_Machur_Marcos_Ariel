@@ -34,7 +34,7 @@
 }
 
 body {
-  background-image: url(/imagenes/body_III.JPG);
+  background-image: url(../../imagenes/body_III.JPG);
   background-size: auto;
   border: solid #2d00e3 3px;
   text-align: center;
