@@ -2,27 +2,27 @@
 /*VARIABLES PARA ELEMENTOS*/
 @font-face {
   font-family: urban;
-  src: url(../fonts/UrbanJungleDEMO.otf);
+  src: url(../../fonts/UrbanJungleDEMO.otf);
 }
 
 @font-face {
   font-family: plane;
-  src: url(../fonts/Plane.ttf);
+  src: url(../../fonts/Plane.ttf);
 }
 
 @font-face {
   font-family: kina;
-  src: url(../fonts/Kiona-Regular.ttf);
+  src: url(../../fonts/Kiona-Regular.ttf);
 }
 
 @font-face {
   font-family: biko;
-  src: url(../fonts/Biko_Regular.otf);
+  src: url(../../fonts/Biko_Regular.otf);
 }
 
 @font-face {
   font-family: cordelina;
-  src: url(../fonts/cordelina.otf);
+  src: url(../../fonts/cordelina.otf);
 }
 
 /*CSS PARA TEXTOS*/
@@ -34,7 +34,7 @@
 }
 
 body {
-  background-image: url(../imagenes/body_III.JPG);
+  background-image: url(../../imagenes/body_III.JPG);
   background-size: auto;
   border: solid #2d00e3 3px;
   text-align: center;
@@ -43,7 +43,7 @@ body {
 /*CSS PARA EL BODY*/
 /* HEADER */
 header {
-  background-image: url(../imagenes/body_I.JPG);
+  background-image: url(/imagenes/body_I.JPG);
   background-size: cover;
   width: 100%;
   border: solid #000000;
@@ -193,6 +193,30 @@ header nav li {
   margin: 5px;
 }
 
+#integrantes .contenedor__integrantes {
+  display: flex;
+  flex-direction: column;
+}
+
+#integrantes img {
+  border-radius: 80%;
+  width: 300px;
+  margin: 10px 0 40px 0;
+}
+
+#integrantes h2 {
+  font-family: plane;
+  color: #006d02;
+  font-size: 20px;
+  margin: 10px 0 50px 0;
+}
+
+#integrantes p {
+  font-family: cordelina;
+  font-size: 25px;
+  color: #E9EFC0;
+}
+
 /*CSS PARA EL MAIN*/
 /* FOOTER */
 footer {
@@ -317,7 +341,7 @@ z.contacto {
     justify-content: center;
   }
   header {
-    background-image: url(../imagenes/body_I.JPG);
+    background-image: url(/imagenes/body_I.JPG);
     background-size: cover;
     width: 100%;
     border: solid #000000;
@@ -373,8 +397,8 @@ z.contacto {
     margin: 30px 0 25px 0;
   }
   #fechas .img__section__fechas {
-    width: 80%;
-    height: 250px;
+    width: 70%;
+    height: 70%;
     border: solid 5px #006d02;
     border-radius: 10px;
     margin: 10px 0 30px 0;
@@ -444,7 +468,7 @@ z.contacto {
     justify-content: center;
   }
   header {
-    background-image: url(../imagenes/body_I.JPG);
+    background-image: url(/imagenes/body_I.JPG);
     background-size: cover;
     width: 100%;
     border: solid #000000;
@@ -574,7 +598,7 @@ z.contacto {
     justify-content: center;
   }
   header {
-    background-image: url(../imagenes/imagen_header2.jpg);
+    background-image: url(/imagenes/imagen_header2.jpg);
     background-size: contain;
     justify-content: center;
     justify-items: center;
@@ -618,6 +642,7 @@ z.contacto {
   }
   #fechas .img__section__fechas {
     width: 50%;
+    height: 50%;
     border: solid 5px #006d02;
     border-radius: 10px;
     margin: 10px 0 30px 0;
@@ -728,7 +753,7 @@ z.contacto {
     list-style: none;
   }
   header {
-    background-image: url(../imagenes/imagen_header2.jpg);
+    background-image: url(/imagenes/imagen_header2.jpg);
     background-size: contain;
     justify-content: center;
     justify-items: center;
@@ -754,6 +779,7 @@ z.contacto {
   }
   #fechas .img__section__fechas {
     width: 50%;
+    height: 50%;
     border: solid 5px #006d02;
     border-radius: 10px;
     margin: 10px 0 30px 0;
