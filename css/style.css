@@ -26,6 +26,7 @@
 }
 
 /*CSS PARA TEXTOS*/
+/* BODY */
 * {
   margin: 0;
   padding: 0;
@@ -40,6 +41,7 @@ body {
 }
 
 /*CSS PARA EL BODY*/
+/* HEADER */
 header {
   background-image: url(/imagenes/body_I.JPG);
   background-size: cover;
@@ -70,6 +72,7 @@ header nav li {
 }
 
 /*CSS PARA EL HEADER*/
+/* MAIN */
 /*video del index*/
 #inicio .conteiner__inicio {
   position: relative;
@@ -191,6 +194,7 @@ header nav li {
 }
 
 /*CSS PARA EL MAIN*/
+/* FOOTER */
 footer {
   background-size: contain;
   width: 100%;
@@ -207,6 +211,7 @@ footer {
 }
 
 /*CSS PARA EL FOOTER*/
+/* FORMULARIO CONTACTO */
 z.contacto {
   border: 1px solid #CED5D7;
   border-radius: 6px;
