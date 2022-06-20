@@ -2,27 +2,27 @@
 /*VARIABLES PARA ELEMENTOS*/
 @font-face {
   font-family: urban;
-  src: url(/fonts/UrbanJungleDEMO.otf);
+  src: url(../../fonts/UrbanJungleDEMO.otf);
 }
 
 @font-face {
   font-family: plane;
-  src: url(/fonts/Plane.ttf);
+  src: url(../../fonts/Plane.ttf);
 }
 
 @font-face {
   font-family: kina;
-  src: url(/fonts/Kiona-Regular.ttf);
+  src: url(../../fonts/Kiona-Regular.ttf);
 }
 
 @font-face {
   font-family: biko;
-  src: url(/fonts/Biko_Regular.otf);
+  src: url(../../fonts/Biko_Regular.otf);
 }
 
 @font-face {
   font-family: cordelina;
-  src: url(/fonts/cordelina.otf);
+  src: url(../../fonts/cordelina.otf);
 }
 
 /*CSS PARA TEXTOS*/
