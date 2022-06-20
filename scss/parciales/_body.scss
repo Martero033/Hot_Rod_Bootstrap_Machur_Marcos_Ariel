@@ -1,4 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  }
 body{
     background-image: url(/imagenes/body_III.JPG);
-    background-size: auto;   
+    background-size: auto;  
+    border: solid rgb(45, 0, 227) 3px;
+    text-align: center; 
   }

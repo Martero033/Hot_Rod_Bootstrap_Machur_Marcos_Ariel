@@ -26,12 +26,49 @@
 }
 
 /*CSS PARA TEXTOS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
 body {
   background-image: url(/imagenes/body_III.JPG);
   background-size: auto;
+  border: solid #2d00e3 3px;
+  text-align: center;
 }
 
 /*CSS PARA EL BODY*/
+header {
+  background-image: url(/imagenes/body_I.JPG);
+  background-size: cover;
+  width: 100%;
+  border: solid #000000;
+}
+
+.navbar-toggler {
+  width: 100%;
+  height: 100%;
+  margin: 30px 0 50px 0;
+}
+
+header nav h1 {
+  text-align: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 65px;
+  font-family: urban;
+  color: black;
+}
+
+header nav li {
+  font-size: 15px;
+  list-style: none;
+  font-family: urban;
+}
+
 /*CSS PARA EL HEADER*/
 /*video del index*/
 #inicio .conteiner__inicio {
@@ -57,6 +94,100 @@ body {
   width: 100%;
   height: 100%;
   transform: translate(-50%);
+}
+
+#inicio span {
+  font-family: cordelina;
+  color: #000000;
+  font-size: 20px;
+}
+
+#inicio p {
+  font-family: cordelina;
+  font-size: 20px;
+  color: #E9EFC0;
+  padding: 10px 0 10px 0;
+}
+
+#inicio .logo {
+  margin: 30px 0 0 0;
+  width: 150px;
+  border-radius: 50%;
+}
+
+#inicio .texto__inicio {
+  font-size: 20px;
+}
+
+#fechas h2 {
+  font-family: plane;
+  color: #006d02;
+  font-size: 30px;
+  margin: 10px 0 20px 0;
+}
+
+#fechas article h3 {
+  font-family: cordelina;
+  color: #509659;
+  font-size: 30px;
+  margin: 30px 0 25px 0;
+}
+
+#fechas .img__section__fechas {
+  width: 80%;
+  height: 250px;
+  border: solid 5px #006d02;
+  border-radius: 10px;
+  margin: 10px 0 30px 0;
+  box-shadow: 5px 10px 50px #B4E197;
+}
+
+#fechas .section__fechas {
+  display: flex;
+  flex-direction: column;
+}
+
+#fechas .logo {
+  border-radius: 20px;
+  width: 50px;
+}
+
+#noticias h2 {
+  font-family: plane;
+  color: #006d02;
+  font-size: 30px;
+  margin: 50px 0 30px 0;
+}
+
+#noticias .section__noticias {
+  display: flex;
+  flex-direction: column;
+}
+
+#noticias article h3 {
+  font-family: cordelina;
+  color: #509659;
+  font-size: 30px;
+  margin: 30px 0 25px 0;
+}
+
+#noticias p {
+  font-family: cordelina;
+  font-size: 15px;
+  color: #E9EFC0;
+}
+
+#noticias .img__section__noticias {
+  width: 80%;
+  border: solid 2px white;
+  border-radius: 10px;
+  margin: 10px 0 30px 0;
+  box-shadow: 5px 5px 50px #00a816;
+}
+
+#noticias article {
+  padding: 5px;
+  margin: 5px;
 }
 
 /*CSS PARA EL MAIN*/
