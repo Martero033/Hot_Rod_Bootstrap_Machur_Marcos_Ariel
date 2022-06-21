@@ -2,7 +2,7 @@
 /*VARIABLES PARA ELEMENTOS*/
 @font-face {
   font-family: urban;
-  src: url(../../fonts/UrbanJungleDEMO.otf);
+  src: url(../fonts/UrbanJungleDEMO.otf);
 }
 
 @font-face {
@@ -43,7 +43,7 @@ body {
 /*CSS PARA EL BODY*/
 /* HEADER */
 header {
-  background-image: url(/imagenes/body_I.JPG);
+  background-image: url(../../imagenes/body_I.JPG);
   background-size: cover;
   width: 100%;
   border: solid #000000;
@@ -208,7 +208,7 @@ header nav li {
 }
 
 .slide img {
-  height: 65vh;
+  height: 100vh;
 }
 
 .carousel-inner {
@@ -464,6 +464,17 @@ z.contacto {
   #noticias article {
     padding: 5px;
     margin: 5px;
+  }
+  .slide img {
+    height: 200px;
+    width: 400px;
+  }
+  .slide {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 0 100px 0;
   }
 }
 
