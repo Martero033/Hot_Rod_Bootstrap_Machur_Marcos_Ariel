@@ -34,7 +34,7 @@
 }
 
 body {
-  background-image: url(../../imagenes/body_III.JPG);
+  background-image: url(../imagenes/body_III.JPG);
   background-size: auto;
   border: solid #2d00e3 3px;
   text-align: center;
@@ -43,7 +43,7 @@ body {
 /*CSS PARA EL BODY*/
 /* HEADER */
 header {
-  background-image: url(../../imagenes/body_I.JPG);
+  background-image: url(../imagenes/body_I.JPG);
   background-size: cover;
   width: 100%;
   border: solid #000000;
@@ -362,7 +362,7 @@ z.contacto {
     justify-content: center;
   }
   header {
-    background-image: url(/imagenes/body_I.JPG);
+    background-image: url(../imagenes/body_I.JPG);
     background-size: cover;
     width: 100%;
     border: solid #000000;
@@ -500,7 +500,7 @@ z.contacto {
     justify-content: center;
   }
   header {
-    background-image: url(/imagenes/body_I.JPG);
+    background-image: url(../imagenes/body_I.JPG);
     background-size: cover;
     width: 100%;
     border: solid #000000;
@@ -630,7 +630,7 @@ z.contacto {
     justify-content: center;
   }
   header {
-    background-image: url(/imagenes/imagen_header2.jpg);
+    background-image: url(../imagenes/imagen_header2.jpg);
     background-size: contain;
     justify-content: center;
     justify-items: center;
@@ -785,7 +785,7 @@ z.contacto {
     list-style: none;
   }
   header {
-    background-image: url(/imagenes/imagen_header2.jpg);
+    background-image: url(../imagenes/imagen_header2.jpg);
     background-size: contain;
     justify-content: center;
     justify-items: center;
