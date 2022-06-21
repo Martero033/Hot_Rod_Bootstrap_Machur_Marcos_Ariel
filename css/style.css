@@ -269,6 +269,9 @@ z.contacto {
 .contacto label {
   display: block;
   font-weight: bold;
+  font-family: biko;
+  color: white;
+  font-size: 20px;
 }
 
 .contacto div {
@@ -354,6 +357,10 @@ z.contacto {
   body {
     border: solid #2d00e3 3px;
     text-align: center;
+  }
+  .contacto label {
+    margin: 20px;
+    font-size: 15px;
   }
   /*Bottom Nav*/
   .container-fluid {
