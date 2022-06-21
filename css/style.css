@@ -691,11 +691,11 @@ z.contacto {
   #inicio span {
     font-family: cordelina;
     color: #000000;
-    font-size: 60px;
+    font-size: 40px;
   }
   #inicio p {
     font-family: cordelina;
-    font-size: 40px;
+    font-size: 30px;
     color: #E9EFC0;
     padding: 10px 0 10px 0;
   }
@@ -704,7 +704,7 @@ z.contacto {
     border-radius: 50%;
   }
   #inicio .texto__inicio {
-    font-size: 40px;
+    font-size: 30px;
   }
   #noticias h2 {
     font-family: plane;
